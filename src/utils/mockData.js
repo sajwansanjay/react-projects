@@ -1,4 +1,4 @@
-const resList = [
+let resList = [
   {
     info: {
       id: "18974",
@@ -9,9 +9,9 @@ const resList = [
       areaName: "Mathikere- BELÂroad",
       costForTwo: "₹500 for two",
       cuisines: ["Biryani", "Andhra", "South Indian", "North Indian"],
-      avgRating: 4.5,
+      avgRating: 2.5,
       parentId: "2120",
-      avgRatingString: "4.5",
+      avgRatingString: "2.5",
       totalRatingsString: "55K+",
       sla: {
         deliveryTime: 36,
@@ -102,9 +102,9 @@ const resList = [
       areaName: "Sanjay Nagar",
       costForTwo: "₹600 for two",
       cuisines: ["American", "Snacks", "Turkish", "Portuguese", "Continental"],
-      avgRating: 4.4,
+      avgRating: 2.4,
       parentId: "371281",
-      avgRatingString: "4.4",
+      avgRatingString: "2.4",
       totalRatingsString: "38K+",
       sla: {
         deliveryTime: 34,
@@ -177,9 +177,9 @@ const resList = [
       areaName: "Vidyaranyapura",
       costForTwo: "₹400 for two",
       cuisines: ["Burgers", "Beverages", "Cafe", "Desserts"],
-      avgRating: 4.5,
+      avgRating: 3,
       parentId: "630",
-      avgRatingString: "4.5",
+      avgRatingString: "3",
       totalRatingsString: "3.2K+",
       sla: {
         deliveryTime: 30,
