@@ -20,6 +20,10 @@ p {
   margin-bottom: 0;
 }
 
+strong {
+  font-weight: bold !important;
+}
+
 h1,
 h2,
 h3,
@@ -29,6 +33,10 @@ h6 {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 header {
@@ -255,4 +263,17 @@ p.item-name {
 p.item-price {
   font-weight: bold;
   margin: 10px 0;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 10px;
+}
+
+.team-container > div {
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
 }

@@ -1,3 +1,6 @@
+import UserFunction from "./UserFunction";
+import UserClass from "./UserClass";
+
 const About = () => {
   return (
     <div>
@@ -17,6 +20,14 @@ const About = () => {
             by offering unparalleled convenience. Convenience is what makes us
             tick. It’s what makes us get out of bed and say, “Let’s do this.
           </p>
+        </div>
+        <div className="w-100">
+          <h2>Team</h2>
+          <div className="team-container">
+            <UserFunction name={"Sanjay Sajwan"} location={"Pauri"} />
+            <UserClass name={"Manoj Sajwan"} location={"Rishikesh"} />
+            <UserClass name={"Manoj Aswal"} location={"Dehradun"} />
+          </div>
         </div>
       </div>
     </div>
